@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- project title -->
+    <title>Coffee shop website using bootstrap</title>
+    <!-- favorite icon -->
+    <link rel="shortcut icon" href="./assets/image/logo.png" type="image/x-icon">
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header> <!-- 1_parentContainer -->
+        <nav class="navBar componentSpacing"> <!-- 2_component -->
+            <div class="navContaine screenSize "> <!-- 3_componentContainer -->
+                <div class="navBody grid-2"> <!-- 4_row -->
+                    <div class="logoBlock dflex"> <!-- 5_column -->
+                        <div class="logoBox"> <!-- 6_subColumn -->
+                            <a href="#">
+                                <figure><img src="./assets/image/logo.png" alt="logo"></figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navLinkBlock"> <!-- 5_column -->
+                        <div class="navLinkBox dflex"><!-- 6_subColumn -->
+                            <input type="checkbox" id="ham">
+                            <label for="ham" class="dropDown">
+                                <i class="fa-solid fa-bars"></i>
+                             </label>
+                            <ul class="navLinks dflex">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero componentSpacing"> <!-- 2_component -->
+            <div class="heroContainer screenSize "> <!-- 3_componentContainer -->
+                <div class="heroBody"> <!-- 4_row -->
+                    <div class="heroBlock"> <!-- 5_column -->
+                        <div class="heroBox dflex-col"> <!-- 6_subColumn -->
+                            <h1>Coffee Heaven</h1>
+                            <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci Ipsa Id Vero
+                                Perferendis, Reiciendis Dolores!</p>
+                            <button class="brown">About Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main> <!-- 1_parentContainer -->
+        <section class="ourMenu componentSpacing"><!-- 2_component -->
+            <div class="ourMenuContainer screenSize "> <!-- 3_componentContainer -->
+                <div class="ourMenuBody grid-2"> <!-- 4_row -->
+                    <div class="imageBlock dflex"> <!-- 5_column -->
+                        <div class="imageBox"><!-- 6_subColumn -->
+                            <figure><img src="./assets/image/coffeeShop-menu.jpg" alt="menu"></figure>
+                        </div>
+                    </div>
+                    <div class="ourMenuBlock dflex-col"> <!-- 5_column -->
+                        <div class="ourMenuBox "> <!-- 6_subColumn -->
+                            <h2>A Cup Of Coffee Can Complete Your Day</h2>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Pariatur, Esse Corrupti.
+                                Incidunt Fuga Sit Numquam Est Consequatur Provident Ipsa Quidem! Lorem</p>
+                            <button class="brown">Our Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facility componentSpacing"> <!-- 2_component -->
+            <div class="facilityContainer screenSize "> <!-- 3_componentContainer -->
+                <div class="headingBody grid-1"> <!-- 4_row -->
+                    <div class="headingBlock dflex-col"> <!-- 5_column -->
+                        <div class="headingBox "> <!-- 6_subColumn -->
+                            <figure class="dflex"><img src="./assets/image/heading-img.jpg" alt="design"></figure>
+                            <h2>Our Facility</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuBody grid-4"> <!-- 4_row -->
+                    <div class="menuBlock "> <!-- 5_column -->
+                        <div class="menuBox  dflex-col"> <!-- 6_subColumn -->
+                            <div class="facilityCardHeader">
+                                <figure><img src="./assets/image/facilityMenu-varieties.png" alt="coffee"> </figure>
+                            </div>
+                            <div class="facilityCardMain">
+                                <h3>Varities Of Coffee</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coffeeBeansBlock"> <!-- 5_column -->
+                        <div class="coffeeBeansBox dflex-col"> <!-- 6_subColumn -->
+                            <div class="facilityCardHeader">
+                                <figure><img src="./assets/image/facilityMenu-coffeeBean.png" alt="coffeeBean"></figure>
+                            </div>
+                            <div class="facilityCardMain">
+                                <h3>Coffee Beans</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="breakfastBlock"> <!-- 5_column -->
+                        <div class="breakfastBox dflex-col"> <!-- 6_subColumn -->
+                            <div class="facilityCardHeader">
+                                <figure><img src="./assets/image/facilityMenu-breakfast.png" alt="Breakfast"></figure>
+                            </div>
+                            <div class="facilityCardMain">
+                                <h3>Breakfast And Sweets</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="readyBlock"> <!-- 5_column -->
+                        <div class="readyBox dflex-col"><!-- 6_subColumn -->
+                            <div class="facilityCardHeader">
+                                <figure><img src="./assets/image/facilityMenu-ready.png" alt="ready">
+                                </figure>
+                            </div>
+                            <div class="facilityCardMain">
+                                <h3>Ready To Go Coffee</h3>
+                                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular componentSpacing"> <!-- 2_component -->
+            <div class="popularContainer screenSizeTwo"> <!-- 3_componentContainer -->
+                <div class="headingBody grid-1"> <!-- 4_row -->
+                    <div class="headingBlock dflex-col"> <!-- 5_column -->
+                        <div class="headingBox"><!-- 6_subColumn -->
+                            <figure class="dflex"><img src="./assets/image/coffeeShop-allHeading.jpg" alt="design">
+                            </figure>
+                            <h2>Popular Menu</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="coffeeVarietyBody grid-3"> <!-- 4_row -->
+                    <div class="loveBlock "> <!-- 5_column -->
+                        <div class="popularBox dflex-col"><!-- 6_subColumn -->
+                            <figure><img src="./assets/image/popular-love.png" alt="love"></figure>
+                            <h3>Love You Coffee</h3>
+                        </div>
+                    </div>
+                    <div class="cappuccinoBlock"> <!-- 5_column -->
+                        <div class="popularBox dflex-col"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/popular-cappuccino.png" alt="cappuccino"></figure>
+                            <h3>Cappuccino</h3>
+                        </div>
+                    </div>
+                    <div class="mochaBlock"> <!-- 5_column -->
+                        <div class="popularBox dflex-col"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/popular-mocha.png" alt="mochaCoffee"></figure>
+                            <h3>Mocha Coffee</h3>
+                        </div>
+                    </div>
+                    <div class="frappuccinoBlock"> <!-- 5_column -->
+                        <div class="popularBox dflex-col"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/popular-frappuccino.png" alt="frappuccino"></figure>
+                            <h3>Frappuccino</h3>
+                        </div>
+                    </div>
+                    <div class="blackCoffeeBlock"> <!-- 5_column -->
+                        <div class="popularBox dflex-col"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/popular-blackCoffee.png" alt="blackCoffee"></figure>
+                            <h3>Black Coffee</h3>
+                        </div>
+                    </div>
+                    <div class="heartBlock dflex-col"> <!-- 5_column -->
+                        <div class="popularBox"><!-- 6_subColumn -->
+                            <figure><img src="./assets/image/popular-heart.png" alt="heart"></figure>
+                            <h3>Love Heart Coffee</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery"> <!-- 2_component -->
+            <div class="galleryContainer screenSize"> <!-- 3_componentContainer -->
+                <div class="headingBody grid-1"> <!-- 4_row -->
+                    <div class="headingBlock dflex-col"> <!-- 5_column -->
+                        <div class="headingBox"> <!-- 6_subColumn -->
+                            <figure class="dflex"><img src="./assets/image/coffeeShop-allHeading.jpg" alt="design">
+                            </figure>
+                            <h2>Our Gallery</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="imageBody grid-3"> <!-- 4_row -->
+                    <div class="tasteBlock "> <!-- 5_column -->
+                        <div class="galleryImageBox dflex"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/gallery-1.jpg" alt="taste"></figure>
+                        </div>
+                    </div>
+                    <div class="cupBlock"> <!-- 5_column -->
+                        <div class="galleryImageBox dflex"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/gallery-2.jpg" alt="cup"></figure>
+                        </div>
+                    </div>
+                    <div class="cakeBlock"> <!-- 5_column -->
+                        <div class="galleryImageBox dflex"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/gallery-3.jpg" alt="cake"></figure>
+                        </div>
+                    </div>
+                    <div class="beanBlock"> <!-- 5_column -->
+                        <div class="galleryImageBox dflex"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/gallery-4.jpg" alt="bean"></figure>
+                        </div>
+                    </div>
+                    <div class="smileBlock"> <!-- 5_column -->
+                        <div class="galleryImageBox dflex"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/gallery-5.jpg" alt="smile"></figure>
+                        </div>
+                    </div>
+                    <div class="cubeBlock"> <!-- 5_column -->
+                        <div class="galleryImageBox dflex"> <!-- 6_subColumn -->
+                            <figure><img src="./assets/image/gallery-6.jpg" alt="cube"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team componentSpacing"> <!-- 2_component -->
+            <div class="teamContainer screenSizeTwo"> <!-- 3_componentContainer -->
+                <div class="headingBody grid-1"> <!-- 4_row -->
+                    <div class="headingBlock dflex-col"> <!-- 5_column -->
+                        <div class="headingBox"> <!-- 6_subColumn -->
+                            <figure class="dflex"><img src="./assets/image/coffeeShop-allHeading.jpg" alt="design">
+                            </figure>
+                            <h2>Our Team</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="chefBody grid-3"> <!-- 4_row -->
+                    <div class="greyBlock dflex-col"> <!-- 5_column -->
+                        <div class="teamBox"> <!-- 6_subColumn -->
+                            <figure class="teamImage"><img src="./assets/image/ourTeam-1.jpg" alt="grey"></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="chocolateBlock dflex-col"> <!-- 5_column -->
+                        <div class="teamBox"> <!-- 6_subColumn -->
+                            <figure class="teamImage"><img src="./assets/image/our-team-2.jpg" alt="chocolate"></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="blueBlock dflex-col"> <!-- 5_column -->
+                        <div class="teamBox"> <!-- 6_subColumn -->
+                            <figure class="teamImage"><img src="./assets/image/our-team-3.jpg" alt="blue"></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="blackBlock dflex-col"> <!-- 5_column -->
+                        <div class="teamBox"> <!-- 6_subColumn -->
+                            <figure class=" teamImage"><img src="./assets/image/our-team-4.jpg" alt="black"></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="greenBlock dflex-col"> <!-- 5_column -->
+                        <div class="teamBox"> <!-- 6_subColumn -->
+                            <figure class="teamImage"><img src="./assets/image/our-team-5.jpg" alt="green"></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="whiteBlock dflex-col "> <!-- 5_column -->
+                        <div class="teamBox"> <!-- 6_subColumn -->
+                            <figure class="teamImage"><img src="./assets/image/our-team-6.jpg" alt="white"></figure>
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> <!-- 1_parentContainer -->
+        <div class="contact"> <!-- 2_component -->
+            <div class="contactContainer screenSize"> <!-- 3_componentContainer -->
+                <div class="headingBody grid-1"> <!-- 4_row -->
+                    <div class="headingBlock dflex-col"> <!-- 5_column -->
+                        <div class="headingBox"> <!-- 6_subColumn -->
+                            <figure class="dflex"><img src="./assets/image/coffeeShop-allHeading.jpg" alt="design">
+                            </figure>
+                            <h2>contact Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="bookBody grid-2"> <!-- 4_row -->
+                    <div class="formImageBlock"> <!-- 5_column -->
+                        <div class="formImageBox"><!-- 6_subColumn -->
+                            <figure><img src="./assets/image/contact-.jpg" alt="contact"></figure>
+                        </div>
+                    </div>
+                    <div class="bookBlock dflex-col"> <!-- 5_column -->
+                        <div class="bookBox "><!-- 6_subColumn -->
+                        <h3>Book A Table</h3>
+                        <form action="">
+                            <div class="formGroup">
+                        <input type="text" name="" placeholder="Enter Your Name">
+                        </div>
+                           <div class="formGroup">
+                        <input type="number" name="" placeholder="Enter Your Number">
+                        </div>
+                         <div class="formGroup">
+                        <input type="number" name="" placeholder="How Many Guests">
+                        </div>
+                         <button class="brown">Send Message</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactIcon"> <!-- 2_component -->
+            <div class="contactIconContainer screenSize"> <!-- 3_componentContainer -->
+                <div class="contactIconBody grid-4"> <!-- 4_row -->
+                    <div class="mailblock"> <!-- 5_column -->
+                        <div class="mailbox dflex-col"> <!-- 6_subColumn -->
+                            <div class="contactCardHeader">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contactCardMain">
+                                <h3>Our Email</h3>
+                                <p>Shaakshi@Gmail.Com</p> 
+                                <p>Hyhy@Gmail.Com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="openingBlock"> <!-- 5_column -->
+                        <div class="openingBox dflex-col"> <!-- 6_subColumn -->
+                            <div class="contactCardHeader">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div class="contactCardMain">
+                                <h3>Opening Hours</h3>
+                                <p>07:00am to 09:00pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="locationBlock"> <!-- 5_column -->
+                        <div class="locationBox  dflex-col"> <!-- 6_subColumn -->
+                            <div class="contactCardHeader">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contactCardMain">
+                                <h3>Shop Location</h3>
+                                <p>Mumbai, India- 400101</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="numberBlock "> <!-- 5_column -->
+                        <div class="numbercard dflex-col"> <!-- 6_subColumn -->
+                            <div class="contactCardHeader">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contactCardMain">
+                                <h3>Our Number</h3>
+                                <p> +91-123-456-7890</p>
+                                 <p>+91-111-222-3333</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrightBody"> <!-- 4_row -->
+                    <div class="copyrightBlock dflex-col"> <!-- 5_column -->
+                        <div class="copyrightBox dflex"> <!-- 6_subColumn -->
+                            <p >©Copyright @ 2022 By<span class="designer"> Mr. Web Designer </span> | All Rights
+                                Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./app.js"></script>
+</body>
+
+</html>
